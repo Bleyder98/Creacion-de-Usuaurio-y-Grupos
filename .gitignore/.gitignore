@@ -1,0 +1,12 @@
+//Crearemos primeramente el grupo para ellos usaremos el comando (groupadd + nombre_grupo) 
+groupadd Casa
+//Crearemos los usuarios con el comando (useradd + nombre_usuario)
+useradd Sonia
+useradd Jose
+useradd Josue
+//Luego agregaremos los usuarios a los grupos con el comando (adduser + usuario)
+adduser Sonia
+adduser Jose 
+adduser Josue
+//Cambiar nombre al grupo con el comando (groupmod -n + nuevo_nombre + Nombre_anterior)
+groupmod -n Familia Casa
